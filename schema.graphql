@@ -2,6 +2,12 @@
 ### Do not make changes to this file directly
 
 
+type Mutation {
+  addTodo(input: addTodoInput): Todo
+  deleteTodo(input: deleteTodoInput): Todo
+  updateTodo(input: updateTodoInput): Todo
+}
+
 type Query {
   allTodos: [Todo]
 }
@@ -9,5 +15,20 @@ type Query {
 type Todo {
   completed: Boolean
   id: String
+  text: String
+}
+
+input addTodoInput {
+  completed: Boolean
+  text: String!
+}
+
+input deleteTodoInput {
+  id: String!
+}
+
+input updateTodoInput {
+  completed: Boolean
+  id: String!
   text: String
 }
