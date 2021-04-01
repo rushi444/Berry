@@ -1,6 +1,6 @@
 import { NextApiRequest } from 'next'
 
-import { prisma, PrismaClient } from './prisma'
+import { prisma, PrismaClient } from '../prisma/client'
 
 export type Context = {
   prisma: PrismaClient
