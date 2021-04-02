@@ -4,6 +4,8 @@
 ### Built with:  
 - Next.js
 - Typescript
-- Apollo
+- Apollo (Client, Server, Codegen)
 - Prisma
 - Nexus
+- Chakra UI
+- React Hook Form(todo)
