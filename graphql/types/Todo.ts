@@ -1,10 +1,4 @@
-import {
-  inputObjectType,
-  list,
-  mutationField,
-  objectType,
-  queryField
-} from 'nexus'
+import { list, objectType, queryField } from 'nexus'
 
 // Todo Object
 export const Todo = objectType({
