@@ -4,16 +4,16 @@
 // This file was automatically generated and should not be edited.
 
 // ====================================================
-// GraphQL query operation: allTodos
+// GraphQL query operation: todos
 // ====================================================
 
-export interface allTodos_allTodos {
+export interface todos_allTodos {
   __typename: "Todo";
   id: string | null;
   text: string | null;
   completed: boolean | null;
 }
 
-export interface allTodos {
-  allTodos: (allTodos_allTodos | null)[] | null;
+export interface todos {
+  allTodos: (todos_allTodos | null)[] | null;
 }
